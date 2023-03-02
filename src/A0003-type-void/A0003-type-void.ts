@@ -12,5 +12,6 @@ const pessoa = {
 };
 
 semRetorno('Valdemar', 'Santana');
+pessoa.exibirNome();
 
 export { pessoa };
