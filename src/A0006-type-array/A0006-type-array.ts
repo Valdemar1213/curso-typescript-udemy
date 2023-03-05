@@ -1,3 +1,4 @@
+// Tuple
 const dadosCliente1: readonly [number, string] = [1, 'Valdemar'];
 const dadosCliente2: [number, string, string] = [1, 'Valdemar', 'Santana'];
 const dadosCliente3: [number, string, string?] = [1, 'Valdemar'];
