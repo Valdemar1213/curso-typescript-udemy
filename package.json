@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Valdemar1213/curso-typescript-udemy#readme",
   "devDependencies": {
+    "@types/validator": "^13.7.13",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "eslint": "^8.35.0",
@@ -31,5 +32,8 @@
     "typescript": "^4.9.5",
     "webpack": "^5.76.1",
     "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "validator": "^13.9.0"
   }
 }
