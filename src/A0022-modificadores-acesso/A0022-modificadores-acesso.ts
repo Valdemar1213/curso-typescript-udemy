@@ -1,5 +1,5 @@
 export class Empresa {
-  public readonly nome: string;
+  readonly nome: string;
   private readonly colaboradores: Colaborador[] = [];
   protected readonly cnpj: string;
 
@@ -16,10 +16,6 @@ export class Empresa {
     for (const colaborador of this.colaboradores) {
       console.log(colaborador);
     }
-  }
-
-  public getNome(): string {
-    return this.nome;
   }
 }
 
